@@ -1,0 +1,2 @@
+import {Link} from 'react-router-dom';import {ArrowUpRight,Compass} from 'lucide-react';
+export default function NotFound(){return <main className="not-found"><Compass size={42}/><span className="eyebrow">OFF THE MAP</span><h1>THIS TRAIL<br/><em>DOESN’T EXIST.</em></h1><p>Looks like we took a wrong turn. Let’s get you back out there.</p><Link to="/" className="btn btn-orange">Back to basecamp <ArrowUpRight size={16}/></Link></main>}
